@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Components/App/App';
 import reportWebVitals from './reportWebVitals';
+import ContadorUseState from './Components/ContadorUseState/ContadorUseState';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div className="App">
+    <ContadorUseState Inicio="25"/>
+    <ContadorUseState Inicio="13"/>
+  </div>,
   document.getElementById('root')
 );
 
