@@ -4,11 +4,28 @@ import './index.css';
 import App from './Components/App/App';
 import reportWebVitals from './reportWebVitals';
 import ContadorUseState from './Components/ContadorUseState/ContadorUseState';
+import DibujosComplejos from './Components/DibujosCompleajos/DibujosComplejos';
+import Deporte from './Components/Deporte/Deporte';
+import Deportes from './Components/Deporte/Deportes';
+import Numeros from './Components/Numeros/Numeros';
+import Comics from './Components/Comics/Comics';
+import Home from './Components/Rutas/Home';
+import Cine from './Components/Rutas/Cine';
+import Musica from './Components/Rutas/Musica';
+import Television from './Components/Rutas/Television';
+import Router from './Components/Router';
+import MenuRutas from './Components/Rutas/MenuRuta';
+import FormularioSimple from './Components/Formularios/FormularioSimple';
+import Collatz from './Components/Formularios/Collatz';
+import TablaMultiplicar from './Components/Formularios/TablaMultiplicar';
+import TablaSelect from './Components/Formularios/TablaSelect';
 
 ReactDOM.render(
   <div className="App">
-    <ContadorUseState Inicio="25"/>
-    <ContadorUseState Inicio="13"/>
+    <TablaSelect/>
+    {/* <FormularioSimple/> */}
+    {/* <MenuRutas/>
+    <Router/> */}
   </div>,
   document.getElementById('root')
 );
