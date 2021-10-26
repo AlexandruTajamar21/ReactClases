@@ -13,19 +13,18 @@ import Home from './Components/Rutas/Home';
 import Cine from './Components/Rutas/Cine';
 import Musica from './Components/Rutas/Musica';
 import Television from './Components/Rutas/Television';
-import Router from './Components/Router';
 import MenuRutas from './Components/Rutas/MenuRuta';
+import Router from './Components/Router'
 import FormularioSimple from './Components/Formularios/FormularioSimple';
 import Collatz from './Components/Formularios/Collatz';
 import TablaMultiplicar from './Components/Formularios/TablaMultiplicar';
 import TablaSelect from './Components/Formularios/TablaSelect';
+import SeleccionMultiple from './Components/SeleccionMultiple/SeleccionMultiple';
 
 ReactDOM.render(
   <div className="App">
-    <TablaSelect/>
-    {/* <FormularioSimple/> */}
-    {/* <MenuRutas/>
-    <Router/> */}
+    <MenuRutas/>
+    <Router/>
   </div>,
   document.getElementById('root')
 );

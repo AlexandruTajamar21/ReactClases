@@ -18,7 +18,7 @@ export default class TablaSelect extends Component {
             var multiplicacion = numero*i;
 
             datos.push(<tr key={i}>
-                <td>{numero + " + " + i}</td>
+                <td>{numero + " x " + i}</td>
                 <td>{multiplicacion}</td>
             </tr>);
         }
